@@ -1,4 +1,6 @@
+import Carousel from '@/components/carousel'
 import Footer from '@/components/footer'
+import Gallery from '@/components/gallery'
 import MyAnimeList from '@/components/myanimelist'
 import NavBar from '@/components/navbar'
 
@@ -10,11 +12,14 @@ const Home = () => {
 			{/* top animes */}
 			{/* top anime movies */}
 			{/* top manga */}
-			{/* wishlist */}
+			{/* watchlist */}
+			{/* overrated animes */} {/* maybe */}
 
+			<Carousel />
 			<MyAnimeList />
 
-			{/* contact */}
+			<Gallery />
+
 			<Footer />
 		</div>
 	)

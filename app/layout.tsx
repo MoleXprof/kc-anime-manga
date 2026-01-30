@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { fascinate, sofia } from '@/components/fonts/fonts'
+import { fascinate, sofia } from '@/fonts/fonts'
 
 export const metadata: Metadata = {
   title: "Kyle Chin | Anime & Manga",
