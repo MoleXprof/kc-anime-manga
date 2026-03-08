@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { fascinate, sofia } from '@/fonts/fonts'
+import { fascinate, playfair, pottaone, sofia } from '@/fonts/fonts'
 
 export const metadata: Metadata = {
   title: "Kyle Chin | Anime & Manga",
   description: "Kyle Chin's Anime and Manga Collection Website",
+  icons: {
+    icon: "/images/flcl.jpg",
+  }
 };
 
 export default function RootLayout({
@@ -15,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className={`${fascinate.variable} ${sofia.variable} bg-background`}>
+        <main className={`${fascinate.variable} ${playfair.variable} ${pottaone.variable} ${sofia.variable}`}>
           {children}
         </main>
       </body>

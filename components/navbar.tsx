@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 const NavBar = () => {
     return (
-        <header className='fixed left-0 right-0 py-2 z-50 border-b-[1px] mx-5 border-gray-100'>
+        <header className='left-0 right-0 py-2 border-b-[1px] mx-5 border-white'>
             <nav className='flex justify-between items-center'>
-                <div className='uppercase font-semibold text-gray-100 transition duration-500 cursor-default'>
+                <Link href="/" className='uppercase font-semibold text-white transition duration-500 cursor-pointer'>
                     Kyle Chin
-                </div>
+                </Link>
             </nav>
         </header>
     );

@@ -11,14 +11,14 @@ const MyAnimeList = () => {
                 <h3 className="text-sm md:text-lg font-semibold md:hidden">
                         {"See what I've been watching"}
                     </h3>
-                <p className="text-xs md:text-sm">
+                <p className="text-xs md:text-sm font-light">
                     {"Check out my profile on MyAnimeList."}
                 </p>
             </div>
 
             <div className="flex gap-1 md:gap-4">
                 <Link
-                    className="download-btn flex gap-1 justify-center items-center border py-1.5 md:py-2.5 font-bold px-3 md:px-5 rounded-md hover:text-accent-highlight cursor-pointer"
+                    className="download-btn flex gap-1 justify-center items-center border py-1.5 md:py-2.5 font-bold px-3 md:px-5 rounded-3xl hover:text-accent-highlight cursor-pointer"
                     href={"https://myanimelist.net/profile/MoleXprof"}
                     target="_blank"
                     rel="noopener noreferrer"

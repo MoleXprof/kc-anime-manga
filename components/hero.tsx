@@ -2,29 +2,35 @@ import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <section className="bg-[url('/images/flcl.jpg')] bg-no-repeat bg-cover bg-bottom w-full h-screen overflow-hidden">
-            <div className="w-full h-screen flex items-end justify-between bg-gradient-to-t from-black/40 to-gray-300/30 px-5">
+        <section className="bg-[url('/images/fuji.jpeg')] bg-no-repeat bg-cover bg-bottom w-full h-screen">
+            <div className="w-full h-screen flex items-start justify-between px-5">
                 <div className='flex flex-col'>
-                    <div className='flex gap-1 leading-none items-baseline -mb-20'>
-                        <div className="text-[300px] font-sofia uppercase text-gray-100 tracking-tight pl-4">
+                    <div className='flex gap-2 leading-none items-baseline -mb-24'>
+                        <div className="text-[300px] font-sofia uppercase text-accent tracking-tighter italic transform -translate-y-4">
                             Anime
                         </div>
-                        <div className="text-4xl font-fascinate uppercase text-accent">
+                        <div className="text-4xl font-sofia uppercase text-accent italic transform -translate-y-4">
                             &
                         </div>
                     </div>
-                    <div className="text-[300px] font-sofia uppercase text-gray-100 tracking-tight leading-none -mb-8">
-                        Manga
+                    <div className='flex flex-row items-baseline-last'>
+                        <div className="text-[300px] font-sofia uppercase text-accent tracking-tighter leading-none italic self-start transform -translate-x-3 -translate-y-4">
+                            Manga
+                        </div>
+                        <span className="ml-3 block w-5 h-5 bg-red-500 rounded-full transform -translate-y-19" aria-hidden="true" />
+                    </div>
+                    <div className="text-3xl font-semibold uppercase text-accent tracking-tighter leading-none self-start transform -translate-x-1 -translate-y-18">
+                        アニメとマンガ
                     </div>
                 </div>
 
                 <Link
                     href="/home"
-                    className="flex justify-center items-center mb-5 px-4 py-2 rounded-xl border-[1px] 
+                    className="flex justify-center items-center mt-5 px-6 py-2 rounded-4xl border-[1px]
                         bg-transparent text-accent border-accent hover:text-accent-highlight hover:border-accent-highlight
-                        text-sm md:text-[50px] font-semibold transition duration-300 font-sofia uppercase"
+                        text-sm md:text-3xl font-bold transition duration-100 font-playfair"
                 >
-                    {"View Collection"}
+                    {"view collection"}
                 </Link>
             </div>
         </section>

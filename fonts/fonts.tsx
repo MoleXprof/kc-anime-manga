@@ -1,10 +1,21 @@
-import { Fascinate } from 'next/font/google'
-import { Sofia_Sans_Extra_Condensed } from 'next/font/google'
+import { Fascinate, Playfair_Display, Potta_One, Sofia_Sans_Extra_Condensed } from 'next/font/google'
 
 export const fascinate = Fascinate({
     subsets: ['latin'],
     weight: '400',
     variable: '--font-fascinate'
+})
+
+export const playfair = Playfair_Display({
+    subsets: ['latin'],
+    weight: '400',
+    variable: '--font-playfair'
+})
+
+export const pottaone = Potta_One({
+    subsets: ['latin'],
+    weight: '400',
+    variable: '--font-potta-one'
 })
 
 export const sofia = Sofia_Sans_Extra_Condensed({
