@@ -19,7 +19,6 @@ const Home = () => {
 			{/* top anime movies */}
 			{/* top manga */}
 			{/* watchlist */}
-			{/* overrated animes */} {/* maybe */}
 
 			<Carousel />
 			<MyAnimeList />

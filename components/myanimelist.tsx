@@ -3,9 +3,9 @@ import { SiMyanimelist } from "react-icons/si";
 
 const MyAnimeList = () => {
     return (
-        <div className="flex justify-between items-center py-10 px-5 autoAppear text-accent">
+        <div className="flex justify-between items-center py-10 px-5 autoAppear text-accent font-playfair">
             <div>
-                <h3 className="text-sm md:text-lg font-semibold hidden md:block">
+                <h3 className="text-sm md:text-lg font-bold hidden md:block">
                     {"Want to see what I've been watching?"}
                 </h3>
                 <h3 className="text-sm md:text-lg font-semibold md:hidden">

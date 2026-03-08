@@ -11,7 +11,7 @@ const posters = [
 const TopFour = () => {
     return (
         <div className="px-5 py-5 flex flex-col items-center justify-center gap-2 w-fit">
-            <h3 className="text-bold text-4xl md:text-6xl text-white w-full text-center pb-2">
+            <h3 className="text-bold text-4xl md:text-6xl text-accent w-full text-center font-sofia font-bold">
              Favourite Animes
             </h3>
 
