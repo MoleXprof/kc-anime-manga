@@ -1,10 +1,17 @@
-import Carousel from '@/components/carousel'
 import Footer from '@/components/footer'
-import Gallery from '@/components/gallery'
+// import Gallery from '@/components/gallery'
 import MyAnimeList from '@/components/myanimelist'
 import NavBar from '@/components/navbar'
 import Stats from '@/components/stats'
-import TopFour from '@/components/topfour'
+import TopFour from '@/components/favourites'
+import type { Poster } from '@/components/favourites'
+
+const animes: Poster[] = [
+    { src: "/images/flcl-poster.jpeg", alt: "FLCL poster", tooltip: "FLCL (2000)" },
+    { src: "/images/flcl-poster.jpeg", alt: "FLCL poster", tooltip: "FLCL (2000)" },
+    { src: "/images/flcl-poster.jpeg", alt: "FLCL poster", tooltip: "FLCL (2000)" },
+    { src: "/images/flcl-poster.jpeg", alt: "FLCL poster", tooltip: "FLCL (2000)" },
+];
 
 const Home = () => {
 	return (
@@ -12,18 +19,18 @@ const Home = () => {
 			<NavBar />
 			<Stats />
 			<div className='flex items-center justify-center w-full'>
-				<TopFour />
+				<TopFour posters={animes} title="Favourite Anime" />
+			</div>
+			<MyAnimeList />
+			<div className='flex items-center justify-center w-full'>
+				<TopFour posters={animes} title="Favourite Anime Movies" />
 			</div>
 
-			{/* top animes */}
-			{/* top anime movies */}
-			{/* top manga */}
-			{/* watchlist */}
+			<div className='flex items-center justify-center w-full'>
+				<TopFour posters={animes} title="Favourite Manga" />
+			</div>
 
-			<Carousel />
-			<MyAnimeList />
-
-			<Gallery />
+			{/* <Gallery /> */}
 
 			<Footer />
 		</div>

@@ -1,29 +1,51 @@
+"use client"
+
+import AnimatedNumbers from "react-animated-numbers"
+
 const Stats = () => {
     return (
         <div className="py-10 flex flex-row items-center justify-center divide-x divide-accent text-accent text-5xl">
             <div className="flex flex-col items-center text-center">
-                <p className="mx-8 font-sofia font-bold">
-                    237
-                </p>
-                <p className="text-xl font-light font-playfair">
+                <div className="mx-8 font-sofia font-bold tracking-tighter">
+                    <AnimatedNumbers animateToNumber={237} />
+                </div>
+                <p className="text-lg font-light font-playfair">
                     animes
                 </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-                <p className="mx-8 font-sofia font-bold">
-                    52
+                <div className="mx-8 font-sofia font-bold tracking-tighter">
+                    <AnimatedNumbers animateToNumber={3981} useThousandsSeparator />
+                </div>
+                <p className="text-lg font-light font-playfair">
+                    episodes
                 </p>
-                <p className="text-xl font-light font-playfair">
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+                <div className="mx-8 font-sofia font-bold tracking-tighter">
+                    <AnimatedNumbers animateToNumber={52} />
+                </div>
+                <p className="text-lg font-light font-playfair">
                     mangas
                 </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-                <p className="mx-8 font-sofia font-bold">
-                    56
+                <div className="mx-8 font-sofia font-bold tracking-tighter">
+                    <AnimatedNumbers animateToNumber={5177} useThousandsSeparator />
+                </div>
+                <p className="text-lg font-light font-playfair">
+                    chapters
                 </p>
-                <p className="text-xl font-light font-playfair">
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+                <div className="mx-8 font-sofia font-bold tracking-tighter">
+                    <AnimatedNumbers animateToNumber={56} />
+                </div>
+                <p className="text-lg font-light font-playfair">
                     films
                 </p>
             </div>

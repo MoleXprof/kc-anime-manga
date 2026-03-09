@@ -30,9 +30,12 @@ const Hero = () => {
                         bg-transparent text-accent border-accent hover:text-accent-highlight hover:border-accent-highlight
                         text-sm md:text-3xl font-bold transition duration-100 font-playfair"
                 >
-                    {"view collection"}
+                    view collection
                 </Link>
             </div>
+            <p className='fixed bottom-6 right-6 text-accent font-playfair z-50 font-bold text-2xl italic'>
+                A collection of anime and manga that shaped my taste.
+            </p>
         </section>
     );
 };
