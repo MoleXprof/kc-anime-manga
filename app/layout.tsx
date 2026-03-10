@@ -4,7 +4,7 @@ import { fascinate, playfair, pottaone, sofia } from '@/fonts/fonts'
 
 export const metadata: Metadata = {
   title: "Kyle Chin | Anime & Manga",
-  description: "Kyle Chin's Anime and Manga Collection Website",
+  description: "Kyle Chin's Anime and Manga Archive",
   icons: {
     icon: "/images/flcl.jpg",
   }

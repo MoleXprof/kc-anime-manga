@@ -15,7 +15,7 @@ const animes: Poster[] = [
 
 const Home = () => {
 	return (
-		<div className="w-full h-full bg-gray-200">
+		<div className="w-full h-full bg-white">
 			<NavBar />
 			<Stats />
 			<div className='flex items-center justify-center w-full'>
