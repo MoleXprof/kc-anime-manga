@@ -1,4 +1,4 @@
-import Hero from '@/components/hero'
+import Hero from '@/layouts/hero'
 
 const Landing = () => {
 	return <Hero />;

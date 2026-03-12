@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className={`${fascinate.variable} ${playfair.variable} ${pottaone.variable} ${sofia.variable}`}>
+      <main className={`${fascinate.variable} ${playfair.variable} ${pottaone.variable} ${sofia.variable}`}>
           {children}
         </main>
       </body>

@@ -1,9 +1,15 @@
-import { Fascinate, Playfair_Display, Potta_One, Sofia_Sans_Extra_Condensed } from 'next/font/google'
+import { Fascinate, Lacquer, Playfair_Display, Potta_One, Sofia_Sans_Extra_Condensed } from 'next/font/google'
 
 export const fascinate = Fascinate({
     subsets: ['latin'],
     weight: '400',
     variable: '--font-fascinate'
+})
+
+export const lacquer = Lacquer({
+    subsets: ['latin'],
+    weight: '400',
+    variable: '--font-lacquer'
 })
 
 export const playfair = Playfair_Display({
