@@ -7,7 +7,7 @@ export type Props = { posters: Poster[]; title: string; subtitle?: string };
 const Favourites = ({ posters, title, subtitle }: Props) => {
     return (
         <div className="px-5 py-5 flex flex-col items-center justify-center gap-2 w-fit">
-            <h3 className="text-bold text-4xl md:text-6xl text-accent w-full text-center font-sofia font-bold">
+            <h3 className="text-4xl md:text-6xl text-accent w-full text-center font-sofia font-bold uppercase tracking-tight">
                 {title}
             </h3>
             {subtitle && (
