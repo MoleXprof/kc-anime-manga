@@ -4,7 +4,7 @@ import Image from "next/image";
 const History = () => {
     return (
         <section className="w-full h-screen px-5 py-10 flex flex-col items-center justify-center gap-10">
-            <h2>
+            <h2 className='font-playfair text-black text-xl transform translate-y-10 italic'>
                 History of Anime and Manga
             </h2>
 

@@ -25,8 +25,8 @@ const Hero = () => {
                 </div>
 
                 <Link
-                    href="/home"
-                    className="flex justify-center items-center mt-5 px-6 py-2 rounded-4xl border-[1px]
+                    href="/history"
+                    className="mt-5 px-6 py-2 rounded-4xl border-[1px]
                         bg-transparent text-accent border-accent hover:text-accent-highlight hover:border-accent-highlight
                         text-sm md:text-3xl font-bold transition duration-100 font-playfair"
                 >

@@ -3,37 +3,38 @@ import Link from 'next/link'
 const Akira = () => {
     return (
         <section className="bg-[url('/images/akira-bg.png')] bg-no-repeat bg-cover bg-bottom w-full h-screen relative">
-            <div className="w-full h-screen px-5">
-                <p className='font-playfair text-black text-xl transform translate-y-10 italic'>
-                    Cultural Impact of Anime
-                </p>
-                <h3 className="text-[300px] font-sofia uppercase text-black tracking-tighter transform -translate-y-13">
-                    Akira
-                </h3>
-                <p className="text-3xl font-semibold uppercase text-black tracking-tighter leading-none self-start transform -translate-y-44">
-                    50 new colours • Akira slide
-                </p>
-                <p className="max-w-3xl font-playfair transform -translate-y-20 italic pb-10 text-xl">
-                    The anime revolutionized animation by discovering 50 new colors previously not been seen on screen.
-                    It also popularized the iconic “Akira slide,” a motorcycle scene that has since been referenced and recreated in many films and television shows.
-                </p>
+            <div className="w-full h-screen flex justify-between px-5">
+                <div className='transform -translate-y-4'>
+                    <p className='font-playfair text-black text-xl transform translate-y-10 italic'>
+                        Cultural Impact of Anime
+                    </p>
+                    <h3 className="text-[300px] font-sofia uppercase text-black tracking-tighter transform -translate-y-13">
+                        Akira
+                    </h3>
+                    <p className="text-3xl font-semibold uppercase text-black tracking-tighter leading-none self-start transform -translate-y-44">
+                        50 new colours • Akira slide
+                    </p>
+                    <p className="max-w-3xl font-playfair transform -translate-y-20 italic pb-10 text-xl">
+                        The anime revolutionized animation by discovering 50 new colors previously not been seen on screen.
+                        It also popularized the iconic “Akira slide,” a motorcycle scene that has since been referenced and recreated in many films and television shows.
+                    </p>
 
-                <div className="flex gap-1 transform -translate-y-24">
-                    <div className="bg-[#253558] w-15 h-15 border-black border-[1px]" />
-                    <div className="bg-[#406b91] w-15 h-15 border-black border-[1px]" />
-                    <div className="bg-[#6c9fa6] w-15 h-15 border-black border-[1px]" />
-                    <div className="bg-[#a4749b] w-15 h-15 border-black border-[1px]" />
+                    <div className="flex gap-1 transform -translate-y-24">
+                        <div className="bg-[#253558] w-15 h-15 border-black border-[1px]" />
+                        <div className="bg-[#406b91] w-15 h-15 border-black border-[1px]" />
+                        <div className="bg-[#6c9fa6] w-15 h-15 border-black border-[1px]" />
+                        <div className="bg-[#a4749b] w-15 h-15 border-black border-[1px]" />
+                    </div>
                 </div>
 
                 <Link
                     href="/me"
-                    className="flex justify-center items-center mt-5 px-6 py-2 rounded-4xl border-[1px]
+                    className="mt-5 self-start px-6 pt-2 pb-3 rounded-4xl border-[1px]
                         bg-transparent text-black border-black hover:text-zinc-800 hover:border-zinc-800
                         text-sm md:text-3xl font-bold transition duration-100 font-playfair"
                 >
                     next
                 </Link>
-
             </div>
 
             <p className='absolute bottom-6 left-6 text-black font-playfair text-xl italic'>
