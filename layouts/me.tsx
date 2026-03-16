@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Me = () => {
     return (
-        <div className="w-full h-screen">
+        <div className="w-full h-screen bg-background">
             <div className="w-full h-screen flex justify-between px-5">
                 <div className='transform -translate-y-4'>
                     <p className='font-playfair text-black text-xl transform translate-y-10 italic'>

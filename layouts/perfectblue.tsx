@@ -6,13 +6,23 @@ export const perfectblue = localFont({
 
 const PerfectBlue = () => {
     return (
-        <section className="bg-[url('/images/perfectblue-bg.avif')] bg-no-repeat bg-cover bg-bottom w-full h-screen relative">
-            <div className="w-full h-screen px-5">
-                <h3 className={`${perfectblue.className} text-[300px] uppercase text-white tracking-tighter text-right transform -translate-y-16`}>
+        <section className="relative bg-blue-950 w-full h-screen text-white">
+            <div
+                className="absolute inset-0 bg-[url('/images/perfectblue-bg.avif')] bg-no-repeat bg-cover bg-bottom opacity-10 pointer-events-none"
+                aria-hidden="true"
+            />
+
+            <div className="relative z-10 w-full h-screen px-5 flex flex-col items-end text-right text-white">
+                <h3 className={`${perfectblue.className} text-[300px] uppercase tracking-tighter transform -translate-y-16 -translate-x-1`}>
                     Perfect Blue
                 </h3>
-                <p className="text-3xl font-extralight uppercase text-white tracking-tighter leading-none self-start text-right transform -translate-y-44">
-                    Black Swan • Requiem of the Dream
+                <p className="text-3xl font-extralight uppercase tracking-tight transform -translate-y-44">
+                    Satoshi Kon • 1997
+                </p>
+
+                <p className="max-w-3xl font-playfair transform -translate-y-20 italic pb-10 text-xl">
+                    The anime movie, Perfect Blue, is often cited as a major influence on Darren Aronofsky&apos;s films,
+                     Black Swan and Requiem of the Dream, as all explore the dark side of fame and identity.
                 </p>
             </div>
 
